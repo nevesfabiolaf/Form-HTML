@@ -7,70 +7,70 @@
   <body>
     <form action="" method="post">
       <div>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" />
+        <label for="name">Nome:</label>
+        <input type="text" name="username" id="name" />
       </div>
       <div>
         <label for="email">E-mail:</label>
-        <input type="email" id="email" />
+        <input type="email" name="email" id="email" />
       </div>
       <div>
-        <label for="idade">Idade:</label>
-        <input type="number" id="idade" min="18" max="99" />
+        <label for="age">Idade:</label>
+        <input type="number" name="age" id="age" min="18" max="99" />
       </div>
       <div>
-        <label for="senha">Senha:</label>
-        <input type="password" id="senha" />
+        <label for="password">Senha:</label>
+        <input type="password" name="password" id="password" />
       </div>
       <div>
         <label for="msg">Mensagem:</label> <br />
         <textarea id="msg" cols="40" rows="10"></textarea>
       </div>
       <div>
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpar o formulário</button>
-      </div>
-      <div>
         <label for="range">Range:</label>
-        <input type="range" id="range" min="0" max="100" value="70">
+        <input type="range" name="range" id="range" min="0" max="100" value="70">
       </div>
       <div>
-        <label for="cor">Selecione a cor:</label>
-        <input type="color" id="cor">
+        <label for="color">Selecione a cor:</label>
+        <input type="color" name="color" id="color">
       </div>
       <div>
         <label for="url">Url:</label>
-        <input type="url" id="url">
+        <input type="url" name="url" id="url">
       </div>
       <div>
-        <label for="data">Escolha a data:</label>
-        <input type="date" id="data">
+        <label for="date">Escolha a data:</label>
+        <input type="date" name="date" id="date">
       </div>
       <div>
         <label for="datetime">Escolha a data e hora:</label>
-        <input type="datetime" id="datetime">
+        <input type="datetime" name="datetime" id="datetime">
       </div>
       <div>
         <label for="datetimelocal">Escolha a data, hora e local:</label>
-        <input type="datetime-local" id="datetimelocal">      
+        <input type="datetime-local" name="datetimelocal" id="datetimelocal">      
       </div>
       <div>
-        <label for="semana">Escolha a semana:</label>
-        <input type="week" id="semana">
+        <label for="week">Escolha a semana:</label>
+        <input type="week" name="week" id="week">
       </div>
       <div>
-        <label for="mes">Escolha o mês:</label>
-        <input type="month" id="mes">
+        <label for="month">Escolha o mês:</label>
+        <input type="month" name="month" id="month">
       </div>
       <div>
         <label for="box">Checkbox</label>
-        <input type="checkbox" id="box">
-        <input type="checkbox" id="box">
+        <input type="checkbox" name="box" id="box">
+        <input type="checkbox" name="box" id="box">
       </div>
       <div>
         <label for="radio">Radio</label>
         <input type="radio" name="aceita" id="radio">
         <input type="radio" name="aceita">
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar o formulário</button>
       </div>
     </form>
   </body>
